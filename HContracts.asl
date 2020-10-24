@@ -30,62 +30,23 @@ startup
 
 start
 {
-	if (current.Start == 0 && old.Start == 687)
-	{
-		return true;
-	}
+	if (current.Start == 0 && old.Start == 687) return true;
 }
 
 split
 {
-	if (settings["level1"] && current.AllLevels == 981 && old.AllLevels == 731)
-	{
-		return true;
-	}
-	if (settings["level2"] && current.AllLevels == 728 && old.AllLevels == 981)
-	{
-		return true;
-	}
-	if (settings["level3"] && current.AllLevels == 698 && old.AllLevels == 728)
-	{
-		return true;
-	}
-	if (settings["level4"] && current.AllLevels == 735 && old.AllLevels == 698)
-	{
-		return true;
-	}
-	if (settings["level5"] && current.AllLevels == 886 && old.AllLevels == 735)
-	{
-		return true;
-	}
-	if (settings["level6"] && current.AllLevels == 894 && old.AllLevels == 886)
-	{
-		return true;
-	}
-	if (settings["level7"] && current.AllLevels == 886 && old.AllLevels == 894)
-	{
-		return true;
-	}
-	if (settings["level8"] && current.AllLevels == 920 && old.AllLevels == 886)
-	{
-		return true;
-	}
-	if (settings["level9"] && current.AllLevels == 731 && old.AllLevels == 920)
-	{
-		return true;
-	}
-	if (settings["level10"] && current.AllLevels == 905 && old.AllLevels == 731)
-	{
-		return true;
-	}
-	if (settings["level11"] && current.AllLevels == 741 && old.AllLevels == 905)
-	{
-		return true;
-	}
-	if (settings["level12"] && current.End == 67 && old.End == 0 && current.AllLevels == 741)
-	{
-		return true;
-	}
+	if (settings["level1"] && current.AllLevels == 981 && old.AllLevels == 731) return true;
+	if (settings["level2"] && current.AllLevels == 728 && old.AllLevels == 981) return true;
+	if (settings["level3"] && current.AllLevels == 698 && old.AllLevels == 728) return true;
+	if (settings["level4"] && current.AllLevels == 735 && old.AllLevels == 698) return true;
+	if (settings["level5"] && current.AllLevels == 886 && old.AllLevels == 735) return true;
+	if (settings["level6"] && current.AllLevels == 894 && old.AllLevels == 886) return true;
+	if (settings["level7"] && current.AllLevels == 886 && old.AllLevels == 894) return true;
+	if (settings["level8"] && current.AllLevels == 920 && old.AllLevels == 886) return true;
+	if (settings["level9"] && current.AllLevels == 731 && old.AllLevels == 920) return true;
+	if (settings["level10"] && current.AllLevels == 905 && old.AllLevels == 731) return true;
+	if (settings["level11"] && current.AllLevels == 741 && old.AllLevels == 905) return true;
+	if (settings["level12"] && current.End == 67 && old.End == 0 && current.AllLevels == 741) return true;
 }
 
 isLoading
