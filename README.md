@@ -20,4 +20,4 @@ Autosplitter for Steam version
 
 ● You can select exactly which maps you would like it to auto split (by default every level is checked)
 
-● "Game Time" option removes loading times when switched to Game Time comparison in livesplit (unchecked by default)
+● "Game Time" option removes loading times when switched to Game Time comparison in livesplit (unchecked by default) {EXPERIMENTAL}
